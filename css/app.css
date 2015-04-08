@@ -1,15 +1,25 @@
 #face {
   background: #0BB6FF url('../img/lee_8bit_head_square.png') center 0px no-repeat;
   background-size: 90px 90px;
-  border: solid 6px black;
+  border: solid 6px #004969;
   border-radius: 50px;
   height: 105px;
   width: 105px;
   padding: 10px;
-  position: absolute;
+  position: relative;
   left: 6em;
   top: -10px;
+  z-index: 3;
+}
 
+.top-bar-section .left {
+  margin-left: 100px;
+}
+
+#dev a {
+  color: white;
+  /*font-family: 'lato-light';
+  font-size: 1.3rem;*/
 }
 
 /*.main {
@@ -26,7 +36,8 @@
   line-height: 2.8125rem;
   position: relative;
   background: #004969;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  /*border-bottom: .4rem solid black;*/}
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -362,20 +373,23 @@
       background-color: #555555;
       background: #333333;
       color: #FFFFFF; }
+    /*top bar links when not hovered*/
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
       line-height: 3.8125rem;
-      background: #333333; }
+      background: #333333;
+      color: #A8A8A8; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #333333; }
+    /*active link when not hovered*/
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
       line-height: 3.8125rem;
-      color: #FFFFFF;
+      color: #A8E5FF;
       background: #333333; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0;
+        background: #333333;
         color: #FFFFFF; }
     .top-bar-section .has-dropdown > a {
       padding-right: 2.1875rem !important; }
