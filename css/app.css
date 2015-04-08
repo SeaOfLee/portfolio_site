@@ -17,9 +17,9 @@ p {
 
 /*image styling*/
 .project_img {
-  background: yellow;
+  background: #D0D0D0;
   border: 1px solid #b9b9b9;
-  padding: 9px;
+  padding: 7px;
 }
 
 #face {
