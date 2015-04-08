@@ -22,7 +22,7 @@
 
 .top-bar {
   overflow: hidden;
-  height: 2.8125rem;
+  height: 3.8125rem;
   line-height: 2.8125rem;
   position: relative;
   background: #004969;
@@ -314,7 +314,7 @@
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #004969;
+    background: #333333;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -364,16 +364,16 @@
       color: #FFFFFF; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
-      line-height: 2.8125rem;
+      line-height: 3.8125rem;
       background: #333333; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #333333; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
-      line-height: 2.8125rem;
+      line-height: 3.8125rem;
       color: #FFFFFF;
-      background: #008CBA; }
+      background: #333333; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #0078a0;
         color: #FFFFFF; }
