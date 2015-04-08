@@ -4,9 +4,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: 'Gentium Book Basic', serif;
+  /*font-family: 'Gentium Book Basic', serif;*/
+  font-family: 'Lato';
 }
 
+/*image styling*/
+.project_img {
+  background: #d0d0d0;
+  border: 1px solid black;
+  padding: 9px;
+}
 
 #face {
   background: #0BB6FF url('../img/lee_8bit_head_square.png') center 0px no-repeat;
