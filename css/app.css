@@ -8,10 +8,17 @@ p {
   font-family: 'Lato';
 }
 
+.name_small h3{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: #A8E5FF !important;
+  font-size: 2rem !important;
+}
+
 /*image styling*/
 .project_img {
-  background: #d0d0d0;
-  border: 1px solid black;
+  background: yellow;
+  border: 1px solid #b9b9b9;
   padding: 9px;
 }
 
@@ -39,12 +46,19 @@ p {
   font-size: 1.3rem;*/
 }
 
+/*layout style*/
+.name_small {
+margin-top: .55rem;
+margin-left: 1rem;  
+}
+
+
 .top-bar {
   overflow: hidden;
   height: 3.8125rem;
   line-height: 2.8125rem;
   position: relative;
-  background: #004969;
+  background: #333333;
   margin-bottom: 0; 
   /*border-bottom: .4rem solid black;*/}
   .top-bar ul {
@@ -125,7 +139,7 @@ p {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #004969; }
+      background: #333333; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span::after {
@@ -150,7 +164,7 @@ p {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #004969; }
+    background: #333333; }
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
@@ -253,10 +267,10 @@ p {
       background: #333333;
       color: #FFFFFF; }
     .top-bar-section ul li.active > a {
-      background: #008CBA;
+      background: #333333;
       color: #FFFFFF; }
       .top-bar-section ul li.active > a:hover {
-        background: #0078a0;
+        background: #333333;
         color: #FFFFFF; }
   .top-bar-section .has-form {
     padding: 0.9375rem; }
